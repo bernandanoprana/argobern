@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: webapp11
+spec:
+  selector:
+    app: webapp11
+  ports:
+  - port: 80
+    targetPort: 80
