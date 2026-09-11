@@ -6,6 +6,6 @@ data:
   index.html: |
     <html>
     <body>
-      <h1>Hello World webapp11</h1>
+      <h1>Hello World webapp11 auto argocd</h1>
     </body>
     </html>
