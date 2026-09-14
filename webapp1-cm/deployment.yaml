@@ -11,9 +11,6 @@ spec:
     metadata:
       labels:
         app: webapp1-cm
-      annotations:
-        checksum/config: "v1"
-
     spec:
       containers:
       - name: httpd
