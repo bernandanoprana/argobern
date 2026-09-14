@@ -12,7 +12,7 @@ spec:
       labels:
         app: webapp11
       annotations:
-        checksum/config: "v2"
+        checksum/config: "v1"
 
     spec:
       containers:
