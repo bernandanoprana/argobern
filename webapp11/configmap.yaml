@@ -6,6 +6,6 @@ data:
   index.html: |
     <html>
     <body>
-      <h1>Hello World webapp11 auto argocd add checksum</h1>
+      <h1>Hello World webapp11 auto argocd add checksum tanpa update deployment</h1>
     </body>
     </html>
