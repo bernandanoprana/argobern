@@ -12,8 +12,8 @@ spec:
       labels:
         app: webapp11
       annotations:
-        checksum/config: "v1"
-        
+        checksum/config: "v2"
+
     spec:
       containers:
       - name: httpd
