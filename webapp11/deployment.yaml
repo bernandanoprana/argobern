@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: webapp11
 spec:
-  replicas: 3
+  replicas: 1
   selector:
     matchLabels:
       app: webapp11
@@ -12,7 +12,7 @@ spec:
       labels:
         app: webapp11
       annotations:
-        checksum/config: "v1"
+        checksum/config: "v2"
 
     spec:
       containers:
